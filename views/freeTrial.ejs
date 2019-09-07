@@ -14,6 +14,8 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
@@ -31,7 +33,7 @@
     </div>
 
     <div class="freeTrial">
-      <div class="freeText">
+      <div class="freeText" data-aos="fade-right">
         <h1>Free Trial</h1>
         <p>
           Free trial is the process in which we will correct and restore the
@@ -53,15 +55,20 @@
         startyour service without offering this free trial.You cant complaint
         after seeing the results yourself and you would love to opt our service.
       </div>
-      <div class="image"><img src="../assets/images/frettrial1.jpg" /></div>
+
+      <div class="image" data-aos="fade-left">
+        <img src="../assets/images/frettrial1.jpg" />
+      </div>
     </div>
 
     <div
       style="background-color: #F6F5F5; width: 100%; height: 600px; display: flex; align-items: center;margin-top: 60px;"
     >
       <div class="freeTrial ">
-        <div class="image"><img src="../assets/images/frettrial1.jpg" /></div>
-        <div class="freeText">
+        <div class="image" data-aos="fade-left">
+          <img src="../assets/images/frettrial1.jpg" />
+        </div>
+        <div class="freeText" data-aos="fade-right">
           <h1>What Do We Do In Free Trial?</h1>
           <p style="margin-top: 35px;">
             Primarily the ultimate motive of free trial is to clean your car and
@@ -81,7 +88,7 @@
     </div>
 
     <div class="freeTrial">
-      <div class="freeText">
+      <div class="freeText" data-aos="fade-right">
         <h1 style="margin-top: 100px;">Book Your Free Trial</h1>
         <p>
           Give us a chance to serve you and see the difference yourself. We are
@@ -91,7 +98,7 @@
         </p>
       </div>
 
-      <form method="POST" class="trialForm">
+      <form method="POST" class="trialForm" data-aos="fade-left">
         <div class="row">
           <div class="col">
             <input type="text" class="form-control" placeholder="Full Name" />
@@ -122,4 +129,5 @@
     </div>
     <%-include('footer.ejs')%>
   </body>
+  <script type="text/javascript" src="../assets/scripts/index.js"></script>
 </html>
