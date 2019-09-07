@@ -17,7 +17,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ANIMATIONS */
+/* ANIMATIONS 
 @-webkit-keyframes fadeInUpBig {
   from {
     opacity: 0;
@@ -72,7 +72,7 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-}
+}*/
 
 /* INDEX.EJS */
 .crux-container {
@@ -190,7 +190,7 @@ body {
   perspective: 1000px;
 }
 
-.trialFlipper {
+/* .trialFlipper {
   -webkit-animation: fadeInUpBig 2s;
   animation: fadeInUpBig 2s;
 }
@@ -204,6 +204,7 @@ body {
   -webkit-animation: fadeInUpBig 4s;
   animation: fadeInUpBig 4s;
 }
+*/
 
 .flip-card-inner {
   position: relative;
