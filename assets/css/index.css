@@ -44,6 +44,34 @@ body {
   }
 }
 
+@-webkit-keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 /* INDEX.EJS */
 .crux-container {
   background-image: url(../images/bgo3.jpeg);
@@ -103,12 +131,41 @@ body {
   justify-content: space-evenly;
 }
 
+.aboutUS {
+  background-color: #f6f5f5;
+  height: 600px;
+  width: 100%;
+}
+
+.whyUs {
+  background-color: #f6f5f5;
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/bgo1.jpeg);
+  background-attachment: fixed;
+}
+
 /* FLIPPED.EJS */
 .flip-card {
   background-color: transparent;
   width: 450px;
   height: 450px;
   perspective: 1000px;
+}
+
+.trialFlipper {
+  -webkit-animation: fadeInLeftBig 1.3s;
+  animation: fadeInLeftBig 1.3s;
+}
+
+.prodFlipper {
+  -webkit-animation: fadeInLeftBig 0.85s;
+  animation: fadeInLeftBig 0.85s;
+}
+
+.offerFlipper {
+  -webkit-animation: fadeInLeftBig 0.5s;
+  animation: fadeInLeftBig 0.5s;
 }
 
 .flip-card-inner {

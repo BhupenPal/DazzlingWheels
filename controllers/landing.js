@@ -8,7 +8,7 @@ Router.get("/", (req, res) => {
 });
 
 Router.get("/FreeTrial", (req, res) => {
-  res.render("freeTrialFull.ejs");
+  res.render("freeTrial.ejs");
 });
 
 Router.get("/Products", (req, res) => {
