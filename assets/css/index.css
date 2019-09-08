@@ -40,15 +40,6 @@ body {
   animation: fadeInUpBig 0.6s;
 }
 
-/* HEADER.EJS */
-.head {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 30px 0;
-  color: white;
-}
-
 .aboutus {
   background-color: #f6f5f5;
   height: 400px;
@@ -72,31 +63,6 @@ body {
   text-align: center;
   font-size: 25px;
   margin: 50px auto;
-}
-
-.menu-container ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-}
-
-.menu-container ul li {
-  margin: 0 25px;
-  padding: 20px 0;
-}
-
-.menu-container ul li a {
-  text-decoration: none;
-  color: white;
-  transition: 0.2s ease;
-  white-space: nowrap;
-  font-weight: 800;
-  font-size: 18px;
-}
-
-.menu-container ul li a:hover {
-  color: #dd4145;
-  border-bottom: 2px solid #dd4145;
 }
 
 .homeFlipper {
@@ -124,6 +90,40 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* HEADER.EJS */
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  color: white;
+}
+
+.menu-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu-container ul li {
+  margin: 0 25px;
+  padding: 20px 0;
+}
+
+.menu-container ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease;
+  white-space: nowrap;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.menu-container ul li a:hover {
+  color: #dd4145;
+  border-bottom: 2px solid #dd4145;
 }
 
 /* FLIPPED.EJS */
@@ -347,4 +347,26 @@ body {
 .contact-form {
   margin: 60px auto;
   width: 60%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .flip-card .flip-card-inner {
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .flip-card .flip-card-inner p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .html,
+  body {
+    background: coral;
+  }
+}
+
+@media only screen and (max-width: 760px) {
 }
