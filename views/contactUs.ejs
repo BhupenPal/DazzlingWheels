@@ -33,16 +33,16 @@
         Because Your Car Deserves Better
       </h1>
     </div>
-    <div class="aboutus">
+    <div class="aboutus" data-aos="fade-up">
       <h1>Contact Us</h1>
-      <p>
+      <p data-aos="fade-up" data-aos-delay="300">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt,
         molestias. Repellendus provident voluptate obcaecati sapiente dolore
         odio illum, voluptatibus totam, voluptas nesciunt molestias, in
         veritatis laudantium? Minima delectus error placeat!
       </p>
     </div>
-    <div class="contact-form">
+    <div class="contact-form" data-aos="fade-up">
       <form method="POST">
         <div class="form-row">
           <div class="col-md-6 mb-3">
@@ -83,5 +83,7 @@
     </div>
     <%-include('footer.ejs') %>
   </body>
-  <script type="text/javascript" src="../assets/scripts/index.js"></script>
+  <script type="text/javascript" src="../assets/scripts/index.js">
+  AOS.init();
+  </script>
 </html>

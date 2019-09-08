@@ -1,3 +1,50 @@
+<div class="side-navbar" id="sideNav">
+  <div class="overlay"></div>
+
+  <div class="menu-items" id="unblur">
+    <div class="container" onclick="menuCloser(this)" id="repeatCross">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <button
+      type="button"
+      class="btn btn-danger"
+      onclick="window.location.href = '.';"
+    >
+      HOME
+    </button>
+    <button
+      type="button"
+      class="btn btn-danger"
+      onclick="window.location.href = '/FreeTrial';"
+    >
+      FREE TRIAL
+    </button>
+    <button
+      type="button"
+      class="btn btn-danger"
+      onclick="window.location.href = '/Products';"
+    >
+      PRODUCTS
+    </button>
+    <button
+      type="button"
+      class="btn btn-danger"
+      onclick="window.location.href = '/Offers';"
+    >
+      OFFERS
+    </button>
+    <button
+      type="button"
+      class="btn btn-danger"
+      onclick="window.location.href = '/ContactUs';"
+    >
+      CONTACT US
+    </button>
+  </div>
+</div>
+
 <header class="head">
   <div class="logo-container">
     <!-- <img src="" alt="Dazzling Wheels" /> -->
@@ -12,5 +59,10 @@
       <li><a href="/Offers">OFFERS</a></li>
       <li><a href="/ContactUs">CONTACT US</a></li>
     </ul>
+  </div>
+  <div class="container" onclick="menuOpener(this)" id="origCross">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
   </div>
 </header>
