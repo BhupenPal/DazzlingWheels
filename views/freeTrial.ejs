@@ -23,13 +23,15 @@
     ></script>
     <link rel="stylesheet" href="../assets/css/index.css" />
     <script src="https://kit.fontawesome.com/1f3b33001a.js"></script>
-    <title>Dazzling Wheels - Home</title>
+    <title>Dazzling Wheels - Free Trial</title>
   </head>
   <body>
     <div class="crux-container freetrial-container">
       <%-include('header.ejs') %>
       <h1 data-aos="fade-up" data-aos-duration="700">Car Care Redefined</h1>
-      <h1 style="margin-top: 50px;" data-aos="fade-up" data-aos-duration="700">Because Your Car Deserves Better</h1>
+      <h1 style="margin-top: 50px;" data-aos="fade-up" data-aos-duration="700">
+        Because Your Car Deserves Better
+      </h1>
     </div>
 
     <div class="freeTrial">
@@ -62,13 +64,14 @@
     </div>
 
     <div
-      style="background-color: #F6F5F5; width: 100%; height: 600px; display: flex; align-items: center;margin-top: 60px;"
-    >
+      style="background-color: #F6F5F5; width: 100%; height: 600px; display: flex;
+       align-items: center;margin-top: 60px;">
+    
       <div class="freeTrial ">
-        <div class="image" data-aos="fade-left">
+        <div class="image" data-aos="fade-right">
           <img src="../assets/images/frettrial1.jpg" />
         </div>
-        <div class="freeText" data-aos="fade-right">
+        <div class="freeText" data-aos="fade-left">
           <h1>What Do We Do In Free Trial?</h1>
           <p style="margin-top: 35px;">
             Primarily the ultimate motive of free trial is to clean your car and
@@ -101,27 +104,52 @@
       <form method="POST" class="trialForm" data-aos="fade-left">
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Full Name" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full Name"
+              name="custName"
+              required
+            />
           </div>
           <div class="col">
             <input
               type="number"
               class="form-control"
               placeholder="Mobile No."
+              name="custNumb"
+              required
             />
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Car Name" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Car Name"
+              name="carName"
+              required
+            />
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Car Number" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Car Number"
+              name="carNumb"
+            />
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Address" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Address"
+              name="custAddr"
+              required
+            />
           </div>
         </div>
         <button type="submit" class="btn btn-primary">SUBMIT</button>
