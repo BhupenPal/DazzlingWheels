@@ -189,31 +189,33 @@ body {
   width: 70%;
 }
 
-
-
 /*OFFER.EJS*/
+.offer-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url(../images/bgo10.jpeg);
+}
+
 .services {
   font-size: 20px;
-  
-
 }
-.services h1{
+
+.services h1 {
   margin: 20px auto;
-
 }
-.outerdiv{
+
+.outerdiv {
   display: flex;
- 
+
   justify-content: space-evenly;
   margin: 25px auto;
   width: 70%;
-
 }
-.innerdiv{
+
+.innerdiv {
   height: 200px;
   width: 300px;
-  
-  border-radius: 25px;
+
+  border-radius: 5px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -221,71 +223,68 @@ body {
   font-weight: 600;
   font-size: 22px;
   padding: 8px;
-  box-shadow: 5px 5px 2px 2px rgb(197, 182, 182);
   transition: 0.2s;
-  
+}
 
+.innerdiv:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
-.innerdiv:hover{
-  box-shadow: 0px 0px 12px 12px grey;
-}
-.service-cost-1{
+
+.service-cost-1 {
   display: flex;
   justify-content: space-around;
   margin: 40px auto;
   width: 70%;
 }
-.service-cost-2{
-  width: 50%;
 
+.service-cost-2 {
+  width: 50%;
 }
-.cost{
+
+.cost {
   height: 350px;
   width: 400px;
   background-image: url(../images/gradient.png);
-  
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  box-shadow: 5px 5px 2px 2px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
   font-size: 35px;
   text-align: center;
 }
-.cost-special{
+.cost-special {
   height: 350px;
 
   background-image: url(../images/gradient.png);
- 
+
   border-radius: 30px;
- 
+
   padding: 10px;
   box-shadow: 5px 5px 2px 2px;
   font-size: 35px;
   text-align: center;
   font-weight: bold;
   width: 700px;
-   font-size: 25px;
+  font-size: 25px;
 }
-.cost-special h1{
+.cost-special h1 {
   font-weight: 800;
   margin: 10px auto;
 }
-.cost:hover{
+.cost:hover {
   box-shadow: 5px 5px 10px 10px;
 }
-.cost-special:hover{
+.cost-special:hover {
   box-shadow: 5px 5px 10px 10px;
 }
-.price{
+.price {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
   margin: 35px auto;
 }
-
-
 
 /* FLIPPED.EJS */
 .flip-card {
@@ -494,7 +493,8 @@ body {
   background-color: #f6f5f5;
   width: 100%;
   display: flex;
-  align-items: cmargin: 10px auto;enter;
+  align-items: center;
+  margin: 10px auto;
   margin-top: 60px;
 }
 
@@ -554,20 +554,24 @@ body {
   .flip-card .flip-card-inner p {
     font-size: 16px;
   }
- 
-  .cost{
+
+  .cost {
     width: 280px;
   }
-  .outerdiv{
+
+  .outerdiv {
     width: 90%;
   }
-  .innerdiv{
+
+  .innerdiv {
     width: 280px;
   }
-  .service-cost-1{
+
+  .service-cost-1 {
     width: 90%;
   }
-  .service-cost-2{
+
+  .service-cost-2 {
     width: 70%;
   }
 }
@@ -628,27 +632,29 @@ body {
     text-align: center;
     width: 90%;
   }
-  .outerdiv{
+
+  .outerdiv {
     flex-direction: column;
     margin: 10px auto;
   }
-  .innerdiv{
+
+  .innerdiv {
     margin: 15px auto;
   }
-  .service-cost-1{
+
+  .service-cost-1 {
     flex-direction: column;
     margin: 10px auto;
-   
   }
-  .service-cost-2{
+  .service-cost-2 {
     width: 70%;
   }
-  .cost{
+  .cost {
     margin: 15px auto;
     height: 400px;
-    width:300px;
+    width: 300px;
   }
-  .cost-special{
+  .cost-special {
     height: 600px;
     width: 300px;
     margin: 10px auto;
@@ -660,28 +666,27 @@ body {
   .crux-container h1 {
     margin-top: 20px;
   }
-  .outerdiv{
+  .outerdiv {
     flex-direction: column;
     margin: 10px auto;
   }
-  .innerdiv{
+  .innerdiv {
     margin: 15px auto;
   }
-  .service-cost-1{
+  .service-cost-1 {
     flex-direction: column;
     margin: 10px auto;
-   
   }
-  .service-cost-2{
+  .service-cost-2 {
     width: 90%;
     justify-content: center;
   }
-  .cost{
+  .cost {
     margin: 15px auto;
     height: 400px;
-    width:300px;
+    width: 300px;
   }
-  .cost-special{
+  .cost-special {
     height: 600px;
     width: 300px;
     margin: 10px auto;
