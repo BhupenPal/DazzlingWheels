@@ -212,7 +212,7 @@ body {
 .innerdiv{
   height: 200px;
   width: 300px;
-  background: url(../images/gradient.png);
+  
   border-radius: 25px;
   text-align: center;
   display: flex;
@@ -257,7 +257,7 @@ body {
   height: 350px;
 
   background-image: url(../images/gradient.png);
-  background-position: 50% 50%;
+ 
   border-radius: 30px;
  
   padding: 10px;
