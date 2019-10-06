@@ -275,30 +275,28 @@ body {
   text-align: center;
 }
 .cost-special {
-  height: 350px;
+ 
 
-  background-image: url(../images/gradient.png);
+  
 
-  border-radius: 30px;
 
   padding: 10px;
-  box-shadow: 5px 5px 2px 2px;
+  
   font-size: 35px;
   text-align: center;
   font-weight: bold;
-  width: 700px;
+  
   font-size: 25px;
 }
 .cost-special h1 {
   font-weight: 800;
   margin: 10px auto;
+  font-size: 100px;
 }
 .cost:hover {
   box-shadow: 5px 5px 10px 10px;
 }
-.cost-special:hover {
-  box-shadow: 5px 5px 10px 10px;
-}
+
 .price {
   font-size: 50px;
   text-align: center;
@@ -555,7 +553,58 @@ body {
   height: 500px;
   background-color: white;
 }
+.polishFlipFront{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)),
+  url(../images/automobile-automotive-car-638479.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
 
+.polishFlipBack{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+  url(../images/automobile-automotive-car-638479.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.waxFlipFront{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)),
+  url(../images/asphalt-automotive-car-3015599.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.waxFlipBack{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+  url(../images/asphalt-automotive-car-3015599.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.microFlipFront{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)),
+  url(../images/automobile-blur-car-1468642.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.microFlipBack{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+  url(../images/automobile-blur-car-1468642.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.windowFlipFront{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)),
+  url(../images/blur-car-drive-451590.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.windowFlipBack{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+  url(../images/blur-car-drive-451590.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.flip-card-back{
+  color: white;
+}
 /* CONTACTUS.EJS */
 .contact-container {
   background-image: url(../images/bgo1.jpeg);
@@ -596,6 +645,18 @@ body {
   .service-cost-2 {
     width: 70%;
   }
+  .product-cards-first{
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  
+  .products{
+    height: 2500px;;
+  }
+  .cards{
+    width: 500px;
+  }
+  
 }
 
 @media only screen and (max-width: 992px) {
@@ -641,8 +702,9 @@ body {
     align-items: center;
   }
 
-  .flip-card .flip-card-inner {
-    transform: scale(0.9);
+  
+  .products{
+    height: 2200px;;
   }
 
   /* FREETRIAL.EJS */
@@ -682,6 +744,15 @@ body {
     margin: 10px auto;
     font-size: 22px;
   }
+  .product-cards-first{
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .cards{
+    height: 250px;
+    width: 400px;
+  }
+  
 }
 
 @media only screen and (max-width: 480px) {
