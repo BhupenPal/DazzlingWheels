@@ -686,6 +686,18 @@ body {
   .crux-container h1 {
     margin-top: 20px;
   }
+  .flip-card {
+    height: 350px;
+    width: 90%;
+  }
+  .whyUs h1 {
+    font-size: 25px;
+  }
+
+  .whyUs p {
+    font-size: 19px;
+  }
+
   .outerdiv {
     flex-direction: column;
     margin: 10px auto;
