@@ -536,9 +536,11 @@ body {
   background-position: 0 110%;
 }
 
-.product-cards-first {
+.product-cards {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .products {
@@ -723,5 +725,12 @@ body {
     width: 300px;
     margin: 10px auto;
     font-size: 22px;
+  }
+  .footUp {
+    width: 80%;
+  }
+  .footLow {
+    width: 100%;
+    font-size: 12px;
   }
 }
